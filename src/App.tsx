@@ -188,39 +188,40 @@ function App() {
                 element={
                   <div className="space-y-12 sm:space-y-16">
                     {/* Hero Section */}
-                    <div className="relative">
-                      <div className="absolute inset-0">
-                        <img
-                          className="w-full h-[400px] sm:h-[500px] lg:h-[600px] object-cover"
-                          src="https://images.unsplash.com/photo-1559339352-11d035aa65de?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80"
-                          alt="Restaurant interior"
-                          loading="eager"
-                        />
-                        <div className="absolute inset-0 bg-gray-900/70 mix-blend-multiply" />
-                      </div>
-                      <div className="relative max-w-4xl mx-auto text-center py-16 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-8">
-                        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white">
-                          Dining Made Simple
-                        </h1>
-                        <p className="mt-4 sm:mt-6 text-base sm:text-lg lg:text-xl text-gray-100 max-w-3xl mx-auto">
-                          ReserveEase transforms your dining experience with seamless table reservations. 
-                          Skip the wait, secure your perfect table, and focus on what matters – enjoying great food with great company.
-                        </p>
-                      </div>
-                    </div>
+<div className="relative min-h-screen">
+  <div className="absolute inset-0">
+    <img
+      className="w-full h-[400px] sm:h-[500px] lg:h-[600px] object-cover"
+      src="https://images.unsplash.com/photo-1559339352-11d035aa65de?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80"
+      alt="Restaurant interior"
+      loading="eager"
+    />
+    <div className="absolute inset-0 bg-gray-900/70 mix-blend-multiply pointer-events-none" />
+  </div>
+  <div className="relative max-w-4xl mx-auto text-center py-16 sm:py-24 lg:py-32 pb-16 sm:pb-24 lg:pb-32 px-4 sm:px-6 lg:px-8">
+    <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white">
+      Dining Made Simple
+    </h1>
+    <p className="mt-4 sm:mt-6 text-base sm:text-lg lg:text-xl text-gray-100 max-w-3xl mx-auto">
+      ReserveEase transforms your dining experience with seamless table reservations. 
+      Skip the wait, secure your perfect table, and focus on what matters – enjoying great food with great company.
+    </p>
+  </div>
+</div>
 
-                    {/* Search Section */}
-                    <div className="max-w-3xl mx-auto px-4 sm:px-6">
-                      <div className="text-center mb-6 sm:mb-8">
-                        <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white">
-                          Find Your Table
-                        </h2>
-                        <p className="mt-3 sm:mt-4 text-base sm:text-lg text-gray-600 dark:text-gray-300">
-                          Book your perfect dining experience in seconds
-                        </p>
-                      </div>
-                      <SearchForm onSearch={handleSearch} />
-                    </div>
+{/* Search Section */}
+<div className="max-w-3xl mx-auto px-4 sm:px-6 mt-16 relative z-10">
+  <div className="text-center mb-6 sm:mb-8">
+    <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white">
+      Find Your Table
+    </h2>
+    <p className="mt-3 sm:mt-4 text-base sm:text-lg text-gray-600 dark:text-gray-300">
+      Book your perfect dining experience in seconds
+    </p>
+  </div>
+  <SearchForm onSearch={handleSearch} />
+</div>
+
 
                     {/* Features Section */}
                     <div className="py-12 sm:py-16 bg-white dark:bg-gray-800">
