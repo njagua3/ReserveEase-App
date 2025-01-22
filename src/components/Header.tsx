@@ -23,7 +23,7 @@ const Header: React.FC = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <Utensils className="h-6 w-6 sm:h-8 sm:w-8 text-indigo-600 dark:text-indigo-400" />
-              <span className="ml-2 text-lg sm:text-xl font-bold text-gray-900 dark:text-white">ReserveEase</span>
+              <span className="ml-2 text-lg sm:text-xl font-bold text-gray-900 dark:text-white">ReservEase</span>
             </Link>
           </div>
           

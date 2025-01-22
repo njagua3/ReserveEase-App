@@ -203,7 +203,7 @@ function App() {
       Dining Made Simple
     </h1>
     <p className="mt-4 sm:mt-6 text-base sm:text-lg lg:text-xl text-gray-100 max-w-3xl mx-auto">
-      ReserveEase transforms your dining experience with seamless table reservations.
+      ReservEase transforms your dining experience with seamless table reservations.
     </p>
   </div>
 </div>
@@ -228,7 +228,7 @@ function App() {
                       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                         <div className="text-center">
                           <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white">
-                            Why Choose ReserveEase?
+                            Why Choose ReservEase?
                           </h2>
                           <p className="mt-3 sm:mt-4 text-base sm:text-lg text-gray-600 dark:text-gray-300">
                             Experience the future of restaurant reservations
@@ -335,9 +335,9 @@ function App() {
                               <Star className="h-4 w-4 sm:h-5 sm:w-5 text-yellow-400" />
                             </div>
                             <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300 mb-4">
-                              "ReserveEase made booking our anniversary dinner so simple. No more waiting on hold or hoping for a callback!"
+                              "ReservEase made booking our anniversary dinner so simple. No more waiting on hold or hoping for a callback!"
                             </p>
-                            <p className="font-semibold text-gray-900 dark:text-white text-sm sm:text-base">- Sarah M.</p>
+                            <p className="font-semibold text-gray-900 dark:text-white text-sm sm:text-base">- Isaac M.</p>
                           </div>
                           <div className="bg-gray-50 dark:bg-gray-700 p-4 sm:p-6 rounded-lg">
                             <div className="flex items-center mb-4">
@@ -350,7 +350,7 @@ function App() {
                             <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300 mb-4">
                               "As a restaurant owner, this system has streamlined our booking process and reduced no-shows significantly."
                             </p>
-                            <p className="font-semibold text-gray-900 dark:text-white text-sm sm:text-base">- Michael R.</p>
+                            <p className="font-semibold text-gray-900 dark:text-white text-sm sm:text-base">- Njagua K.</p>
                           </div>
                           <div className="bg-gray-50 dark:bg-gray-700 p-4 sm:p-6 rounded-lg">
                             <div className="flex items-center mb-4">
@@ -363,7 +363,7 @@ function App() {
                             <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300 mb-4">
                               "The real-time availability feature is a game-changer. I can always find the perfect table for my business meetings."
                             </p>
-                            <p className="font-semibold text-gray-900 dark:text-white text-sm sm:text-base">- David L.</p>
+                            <p className="font-semibold text-gray-900 dark:text-white text-sm sm:text-base">- Sanyi D.</p>
                           </div>
                         </div>
                       </div>
