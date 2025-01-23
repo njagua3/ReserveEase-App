@@ -203,7 +203,8 @@ function App() {
       Dining Made Simple
     </h1>
     <p className="mt-4 sm:mt-6 text-base sm:text-lg lg:text-xl text-gray-100 max-w-3xl mx-auto">
-      ReservEase transforms your dining experience with seamless table reservations.
+    ReserveEase transforms your dining experience with seamless table reservations. 
+                          Skip the wait, secure your perfect table, and focus on what matters – enjoying great food with great company.
     </p>
   </div>
 </div>
