@@ -112,10 +112,7 @@ reviews (
 ### Installation
 
 1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/reservease.git
-cd reservease
-```
+
 
 2. Install dependencies:
 ```bash
@@ -178,9 +175,6 @@ The application supports both light and dark themes:
 
 
 
-## 📧 Support
-
-For support, please email support@reservease.com or open an issue in the GitHub repository.
 
 ## 🙏 Acknowledgments
 
@@ -370,10 +364,7 @@ ReserveEase is a modern, user-friendly restaurant reservation system built with 
 ### Installation
 
 1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/reservease.git
-cd reservease
-```
+
 
 2. Install dependencies:
 ```bash
@@ -426,21 +417,6 @@ The application supports both light and dark themes:
 - 📅 Calendar view
 - 📉 Analytics
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📧 Support
-
-For support, please email support@reservease.com or open an issue in the GitHub repository.
 
 ## 🙏 Acknowledgments
 
